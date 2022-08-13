@@ -30,6 +30,13 @@ body {
   color: white;
 }
 
+/* Reverbnation */
+.fa-star {
+  background: #000000;
+  color: red;
+}
+
+
 /* Twitter */
 .fa-twitter {
   background: #55ACEE;
