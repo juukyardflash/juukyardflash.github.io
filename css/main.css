@@ -19,6 +19,13 @@ iframe {
    padding-bottom: 20px;
 }
 
+/* Carousel images */
+.carousel-inner {
+  height: 600px;
+  /* width: 100%;/* set a fixed height */ */
+  /* object-fit: cover; /* make the image fill the container and preserve aspect ratio */ */
+}
+
 /* .list-unstyled {
   padding-bottom: 20px;
 } */
