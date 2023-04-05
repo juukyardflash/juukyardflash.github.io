@@ -10,7 +10,7 @@
 
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
-  <!-- Custom CSS -->
+    <!-- Custom CSS -->
   <link rel="stylesheet" href="css/main.css">
 
   <!-- Add icon library -->
@@ -21,10 +21,18 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap" rel="stylesheet">
 
+  <script>
+    const now = new Date();
+    const options = { year: 'numeric', month: 'long', day: 'numeric' };
+    const formattedDate = now.toLocaleDateString(undefined, options);
+
+    document.getElementById("last-updated-1").textContent = "Last updated: " + formattedDate;
+    document.getElementById("last-updated-2").textContent = "Last updated: " + formattedDate;
+  </script>
+
 
 </head>
 <body>
-
 
   <body class="container">
 
@@ -57,9 +65,11 @@
             <p class="card-text"><a href="https://ssa.cc/delandapalooza.html?fbclid=IwAR0KuZCkrlNT_1wWHCFgiLufxR5q029V-I-0DXFIrELs3wfEOGPd9f892Ls" target="_blank">Click here for info!</a></p>
           </div>
           <div class="card-footer">
-            <small class="text-muted">Last updated: 1 day ago</small>
+            <small id="last-updated-1" class="text-muted">Last updated: 1 day ago</small>
           </div>
         </div>
+
+
         <div class="card">
           <img src="images/juukyardflash.jpg" class="card-img-top" alt="...">
           <div class="card-body">
@@ -73,7 +83,7 @@
               </ul></p>
           </div>
           <div class="card-footer">
-            <small class="text-muted">Last updated 1 month ago</small>
+            <small id="last-updated-2" class="text-muted">Last updated: 1 week ago</small>
           </div>
         </div>
         <div class="card">
@@ -84,7 +94,7 @@
             <p class="card-text"><a href="http://www.ssa.cc/ormsch22.html" target="_blank">Click here for schedule</a></p>
           </div>
           <div class="card-footer">
-            <small class="text-muted">Last updated 6 months ago</small>
+            <small id="last-updated" class="text-muted">Last updated: 8 months ago</small>
           </div>
         </div>
         <div class="card">
@@ -94,9 +104,10 @@
             <p class="card-text">JYF has started rehearsing with new drummer Erik at a top secret location.</p>
           </div>
           <div class="card-footer">
-            <small class="text-muted">Last updated 6 months ago</small>
+            <small id="last-updated" class="text-muted">Last updated: 8 months ago</small>
           </div>
         </div>
+
         <div class="card">
           <img src="images/erik_card.jpeg" class="card-img-top" alt="...">
           <div class="card-body">
@@ -104,11 +115,12 @@
             <p class="card-text">JYF has added drummer Erik Burton to the line up.</p>
           </div>
           <div class="card-footer">
-            <small class="text-muted">Last updated 7 months ago</small>
+            <small id="last-updated" class="text-muted">Last updated 8 months ago</small>
           </div>
         </div>
       </div>
     </div>
+
 
   <!-- Footer -->
   <footer class="footer mt-auto py-3 bg-light">
