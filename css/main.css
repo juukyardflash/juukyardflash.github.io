@@ -1,11 +1,24 @@
 body {
-  background-color: red;
+  background-color: black;
 }
 
 h1.a {
-  font-family: 'Rubik Dirt', cursive;
+  font-family: 'Open Sans',
   font-size: 65px;
-  text-shadow: 3px 3px 3px #ababab;
+  /* text-shadow: 3px 3px 3px #ababab; */
+  color: white;
+}
+
+p, li, h2, h3 {
+  color: white;
+}
+
+p.news {
+  color: black;
+}
+
+li.news {
+  color: black;
 }
 
 .bg-white {
