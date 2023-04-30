@@ -3,7 +3,7 @@ body {
 }
 
 h1.a {
-  font-family: 'Open Sans',
+  font-family: 'Open Sans';
   font-size: 65px;
   /* text-shadow: 3px 3px 3px #ababab; */
   color: white;
@@ -36,8 +36,8 @@ iframe {
 /* Carousel images */
 .carousel-inner {
   height: 600px;
-  /* width: 100%;/* set a fixed height */ */
-  /* object-fit: cover; /* make the image fill the container and preserve aspect ratio */ */
+  /* width: 100%;/* set a fixed height */
+  /* object-fit: cover; /* make the image fill the container and preserve aspect ratio */
 }
 
 /* .list-unstyled {
