@@ -25,6 +25,7 @@ li.news {
 .bg-white {
   background-color: white;
   padding: 10px;
+  color: black;
 }
 
 iframe {
