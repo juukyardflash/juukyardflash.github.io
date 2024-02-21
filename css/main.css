@@ -62,6 +62,10 @@ iframe {
   opacity: 0.7;
 }
 
+.table th,
+.table td {
+  width: 10%;
+}
 
 /* Social Icons */
 .social-icons a {
