@@ -67,6 +67,21 @@ iframe {
   width: 10%;
 }
 
+.alert {
+  text-align: center; 
+  margin: 2px;
+}
+.alert-warning {
+  color: black !important;
+  background-color: lightyellow;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.alert p {
+  margin: 0; /* Remove default margin for <p> element inside the alert */
+}
+
 /* Social Icons */
 .social-icons a {
   display: inline-block;
