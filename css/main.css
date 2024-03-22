@@ -67,6 +67,11 @@ iframe {
   width: 10%;
 }
 
+.highlight {
+  color: yellow;
+  font-size: large;
+}
+
 .alert {
   margin: 2px;
 }
