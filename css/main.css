@@ -72,7 +72,6 @@ iframe {
 }
 .alert-warning {
   text-align: center;
-  color: black !important;
   background-color: lightyellow;
   border: 1px solid #ccc;
   padding: 10px;
