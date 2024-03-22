@@ -81,6 +81,10 @@ iframe {
   margin: 0; /* Remove default margin for <p> element inside the alert */
 }
 
+.alert button {
+  border-radius: 5px; /* You can adjust the value to change the roundness */
+}
+
 /* Social Icons */
 .social-icons a {
   display: inline-block;
